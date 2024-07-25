@@ -1,0 +1,26 @@
+---
+# title: 'Welcome to the Masiello Group: <span style="color:#757883">light-matter theory at the nanoscale</span>'
+# subtitle: "light-matter theory at the nanoscale"
+# page-layout: full
+---
+
+<style>
+  body {
+  background-image: url("images/illo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+</style>
+
+
+<p align=center>
+![](images/logo_transparent.png){fig-align="center" width=10%}
+<p>
+
+::: {.lead}
+
+**Welcome to `I`ntelligent `Hu`man-`Ma`chine `N`exus `Lab`- iHuman Lab, where the convergence of human intelligence and machine capabilities defines our pursuit of cutting-edge research.**
+
+**At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.**
+:::
+

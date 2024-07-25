@@ -1,0 +1,94 @@
+---
+pagetitle: "People | AffCom Lab"
+toc: false
+listing:
+  - id: pi
+    contents: "./pi/"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    fields: [image, title, subtitle]
+    grid-item-align: center
+    sort: sortby
+    field-display-names:
+      started: "Started"
+#   - id: phd
+#     contents: "./phd/"
+#     type: grid
+#     image-height: 225px
+#     grid-columns: 3
+#     sort: sortby
+#     fields: [image, title, subtitle, started]
+#     field-display-names:
+#       started: "Started"
+#     grid-item-align: center
+
+#   - id: masters
+#     contents: "./masters/"
+#     type: grid
+#     image-height: 225px
+#     grid-columns: 3
+#     sort: sortby
+#     fields: [image, title, subtitle, started]
+#     field-display-names:
+#       started: "Started"
+#     grid-item-align: center
+
+#   - id: masters
+#     contents: "./undergraduate/"
+#     type: grid
+#     image-height: 225px
+#     grid-columns: 3
+#     sort: sortby
+#     fields: [image, title, subtitle, started]
+#     field-display-names:
+#       started: "Started"
+#     grid-item-align: center
+
+#   - id: alumni
+#     contents: "./alumni/"
+#     type: grid
+#     image-height: 225px
+#     grid-columns: 3
+#     sort: sortby
+#     fields: [image, title, subtitle, started, ended]
+#     field-display-names:
+#       started: "Started"
+#       ended: "Ended"
+#     grid-item-align: center
+toc-location: body
+---
+
+```{=html}
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">People</li>
+  </ol>
+</nav>
+```
+
+## PI
+
+:::{#pi}
+:::
+
+## PhD
+
+:::{#phd}
+:::
+
+## Masters
+
+:::{#masters}
+:::
+
+## Undergraduate
+
+:::{#undergraduate}
+:::
+
+## Alumni
+
+:::{#alumni}
+:::

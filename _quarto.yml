@@ -1,0 +1,40 @@
+project:
+  type: website
+
+website:
+  title: 'iHuman Lab'
+  favicon: images/logo_transparent.png
+  navbar:
+    logo: images/logo_transparent.png
+    right:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        href: https://github.com/iHuman-Lab
+      - icon: youtube
+        href: https://youtube.com/@ihuman-lab?si=DNK0QzRY-XgeOj5C
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research
+        text: Research
+      - href: publications
+        text: Publications
+      - href: people
+        text: People
+      - href: news
+        text: News
+      - href: contact
+        text: Contact
+      - href: blogs
+        text: Blogs
+
+format:
+  html:
+    theme: [cosmo, custom.scss]
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    toc_smooth_scroll: true
+    toc_highlight: true
+    link-external-newwindow: true

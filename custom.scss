@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+
+// $primary: #982a31 !default;
+// $fg: #2b2121 !default;
+// $bg: #ffffff !default;
+
+
+/*-- scss:rules --*/
+/*-- scss:defaults --*/
+
+.navbar .navbar-nav>li>a {
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.flipH {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

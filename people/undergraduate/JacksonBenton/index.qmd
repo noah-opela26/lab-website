@@ -1,0 +1,27 @@
+---
+title: Jackson Benton
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/JacksonBenton
+        - icon: github
+          text: Github
+          url: https://github.com/JacksonB45
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url: 
+        - text: Website
+          url: 
+image: ./avatar.jpg
+---
+
+## Education
+Oklahoma State University
+B.S. in Aerospace and Mechanical Engineering
+August 2021 - May 2026
+
+## Research Interest
+Interested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving 
+aerospace and mechanical systems. Also exploring AI and machine learning for autonomous systems.
+

@@ -10,9 +10,9 @@ about:
           text: Github
           url: https://github.com/JacksonB45
         - text: "{{< ai google-scholar >}} Google Scholar"
-          url: 
+          url: None
         - text: Website
-          url: 
+          url: None
 image: ./avatar.jpg
 ---
 
@@ -22,6 +22,6 @@ B.S. in Aerospace and Mechanical Engineering
 August 2021 - May 2026
 
 ## Research Interest
-Interested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving 
+Interested in aerodynamics, propulsion systems, and thermodynamics, with a focus on improving
 aerospace and mechanical systems. Also exploring AI and machine learning for autonomous systems.
 

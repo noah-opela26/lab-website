@@ -1,0 +1,23 @@
+---
+title: Carson McSpadden
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/carson-mcspadden-640142324/
+        - icon: github
+          text: Github
+          url: https://github.com/Carson-McSpadden
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url:
+        - text: Website
+          url:
+image: ./avatar.jpg
+---
+
+## Education
+B.S in Computer and Electrical Engineering | Oklahoma State University, Stillwater, OK | 2024-2027
+
+## Research Interest
+Deep Learning | Human-Robot Interactions | Digital Circuit and System Design 

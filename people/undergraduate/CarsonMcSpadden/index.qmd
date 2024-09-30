@@ -10,9 +10,9 @@ about:
           text: Github
           url: https://github.com/Carson-McSpadden
         - text: "{{< ai google-scholar >}} Google Scholar"
-          url:
+          url: None
         - text: Website
-          url:
+          url: None
 image: ./avatar.jpg
 ---
 
@@ -20,4 +20,4 @@ image: ./avatar.jpg
 B.S in Computer and Electrical Engineering | Oklahoma State University, Stillwater, OK | 2024-2027
 
 ## Research Interest
-Deep Learning | Human-Robot Interactions | Digital Circuit and System Design 
+Deep Learning | Human-Robot Interactions | Digital Circuit and System Design

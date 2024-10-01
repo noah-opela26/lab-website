@@ -1,5 +1,5 @@
 ---
-pagetitle: "People | AffCom Lab"
+pagetitle: "People | iHuman Lab"
 toc: false
 listing:
   - id: pi

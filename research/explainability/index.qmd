@@ -6,6 +6,8 @@ draft: false
 categories:
 - human-robot-interaction
 - python
+twitter-card:
+  image: "cover.jpg"
 links:
 - icon: github
   text: GitHub

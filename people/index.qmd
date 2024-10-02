@@ -12,16 +12,16 @@ listing:
     sort: sortby
     field-display-names:
       started: "Started"
-#   - id: phd
-#     contents: "./phd/"
-#     type: grid
-#     image-height: 225px
-#     grid-columns: 3
-#     sort: sortby
-#     fields: [image, title, subtitle, started]
-#     field-display-names:
-#       started: "Started"
-#     grid-item-align: center
+  - id: phd
+    contents: "./phd/"
+    type: grid
+    image-height: 225px
+    grid-columns: 3
+    sort: sortby
+    fields: [image, title, subtitle, started]
+    field-display-names:
+      started: "Started"
+    grid-item-align: center
 
 #   - id: masters
 #     contents: "./masters/"

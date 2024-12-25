@@ -4,6 +4,8 @@ project:
 website:
   title: 'iHuman Lab'
   favicon: images/logo_transparent.png
+  page-footer: |
+    ![](/images/logo_text.png){fig-align="center" width=65%}
   navbar:
     logo: images/logo_transparent.png
     right:

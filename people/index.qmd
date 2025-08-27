@@ -5,7 +5,7 @@ listing:
   - id: pi
     contents: "./pi/"
     type: grid
-    image-height: 225px
+    image-height: 200px
     grid-columns: 3
     fields: [image, title, subtitle]
     grid-item-align: center
@@ -15,7 +15,7 @@ listing:
   - id: phd
     contents: "./phd/"
     type: grid
-    image-height: 225px
+    image-height: 200px
     grid-columns: 3
     sort: sortby
     fields: [image, title, subtitle, started]
@@ -37,7 +37,7 @@ listing:
   - id: undergraduate
     contents: "./undergraduate/"
     type: grid
-    image-height: 225px
+    image-height: 200px
     grid-columns: 3
     sort: sortby
     fields: [image, title, subtitle, started]

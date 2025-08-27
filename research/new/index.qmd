@@ -1,5 +1,5 @@
 ---
-title: Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation
+title: Hello
 date: today
 draft: false
 categories:

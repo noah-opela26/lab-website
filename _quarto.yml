@@ -9,8 +9,6 @@ website:
   navbar:
     logo: images/logo_transparent.png
     right:
-      - icon: twitter
-        href: https://twitter.com
       - icon: github
         href: https://github.com/iHuman-Lab
       - icon: youtube
@@ -28,8 +26,8 @@ website:
         text: News
       - href: contact
         text: Contact
-      - href: blogs
-        text: Blogs
+      # - href: blogs
+      #   text: Blogs
 
 format:
   html:

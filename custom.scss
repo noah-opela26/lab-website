@@ -1,16 +1,28 @@
 /*-- scss:defaults --*/
 
-// $primary: #982a31 !default;
+// $primary: #Fe5c00 !default;
 // $fg: #2b2121 !default;
 // $bg: #ffffff !default;
-
+$navbar-hl: #252525;
+$navbar-fg: #Fe5c00;
 
 /*-- scss:rules --*/
 /*-- scss:defaults --*/
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+$font-family-sans-serif: "Roboto", sans-serif !default;
+$heading-font: "Rubik", sans-serif !default;
+
 .navbar .navbar-nav>li>a {
     line-height: 50px;
     font-size: 20px;
+    font-weight:bold;
+}
+
+.navbar .navbar-nav>.active>a {
+    color: #252525;
 }
 
 .footer {
@@ -25,4 +37,21 @@
     transform: scaleX(-1);
     filter: FlipH;
     -ms-filter: "FlipH";
+}
+
+.text-box {
+  background-color: #252525; /* A light gray background */
+  color: #ffffff; /* A dark gray text color */
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px; /* The box will be 50% of its parent's width */
+  height: auto;
+  font-family: Rubik;
+  position: relative;
+  top: 100px;   /* Positions the box 20px from the top of its parent */
+  right: 100px;
+}
+
+.primary {
+        color:#Fe5c00; /* Or any other color, like #007bff or rgb(0, 123, 255) */
 }

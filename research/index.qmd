@@ -1,6 +1,7 @@
 ---
 listing:
   contents: ./
+  template: ../assets/listing.ejs
   type: default
   feed: true
   sort-ui: true
@@ -8,5 +9,4 @@ listing:
   image-align: right
 toc-location: body
 page-layout: full
-# title-block-banner: false
 ---

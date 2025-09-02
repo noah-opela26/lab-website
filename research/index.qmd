@@ -1,12 +1,36 @@
 ---
 listing:
   contents: ./
-  template: ../assets/listing.ejs
-  type: default
+  # template: ../assets/listing.ejs
+  type: grid
   feed: true
-  sort-ui: true
-  image-height: 150px
-  image-align: right
+  # sort-ui: true
+  image-height: 200px
+  grid-item-align: center
+  max-items: 6
 toc-location: body
 page-layout: full
 ---
+
+<style>
+.card-text {
+  flex-direction: column;
+  justify-content: left;
+  background: transparent;
+}
+
+.card-title {
+  margin: 0 0 0.1rem;
+  font-size: 1.25rem;
+  color: #215177;
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  color: #374151;
+  line-height: 1.4;
+  margin: 0;
+  overflow: hidden
+}
+</style>

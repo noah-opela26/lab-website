@@ -5,9 +5,11 @@
 // $bg: #ffffff !default;
 $navbar-hl: #252525;
 $navbar-fg: #Fe5c00;
+$link-color: #Fe5c00;
 
-/*-- scss:rules --*/
 /*-- scss:defaults --*/
+/*-- scss:rules --*/
+
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
@@ -44,14 +46,48 @@ $heading-font: "Rubik", sans-serif !default;
   color: #ffffff; /* A dark gray text color */
   padding: 20px;
   border-radius: 8px;
-  width: 400px; /* The box will be 50% of its parent's width */
+  width: 600px; /* The box will be 50% of its parent's width */
   height: auto;
   font-family: Rubik;
   position: relative;
-  top: 100px;   /* Positions the box 20px from the top of its parent */
-  right: 100px;
+  top: 0px;   /* Positions the box 20px from the top of its parent */
+  right: 0px;
+  z-index: 1;
+  margin-bottom: 40px;
+
 }
 
 .primary {
         color:#Fe5c00; /* Or any other color, like #007bff or rgb(0, 123, 255) */
+}
+
+.image-container {
+    /* Set the container dimensions and positioning context */
+    position: absolute;
+    width: 100vw;
+    height: 53vh;
+    // overflow: hidden; /* This is crucial to prevent the image from spilling out */
+    top: 0px;   /* Positions the box 20px from the top of its parent */
+    right: 0px;
+    // margin-bottom: 40px;
+}
+
+.image-container img {
+    /* Make the image fill the container and behave like a background image */
+    width: 100vw;
+    height: 53vh;
+    object-fit: cover;
+    object-position: center; /* Centers the visible part of the image */
+}
+
+/* This creates the overlay as a pseudo-element on the image container */
+.image-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 53vh;
+    background-color: rgba(254, 92, 0, 0.5); /* Your desired overlay color and opacity */
+    z-index: 1; /* Puts the overlay on top of the image */
 }

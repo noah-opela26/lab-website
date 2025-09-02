@@ -2,6 +2,7 @@
 title: Extracting Interpretable EEG Features from a Deep Learning Model to Assess the Quality of Human-Robot Co-manipulation
 date: today
 draft: false
+author: Hemanth Manjunatha
 categories:
 - human-robot-interaction
 - python
@@ -14,7 +15,7 @@ links:
 
 ![](cover.jpg){fig-align="center"}
 
-Imagine a world where robots work **hand-in-hand with humans**, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our **thoughts and cognitive processes**.
+Imagine a world where robots work hand-in-hand with humans, anticipating our needs and adapting to our mental state. This future is becoming increasingly real, with human-robot collaboration poised to transform industries from manufacturing and logistics to healthcare and assistive technologies. But to achieve truly seamless interaction, robots need to understand not only our actions but also our **thoughts and cognitive processes**.
 
 Enter **electroencephalography (EEG)**, a technique that measures brain activity using sensors on the scalp. EEG offers a window into the brain's dynamic processes, but interpreting its complex signals remains a challenge. While **deep learning models** have shown success in decoding EEG data \[14], they often act as "**black boxes**" – we see the results, but we don't know *how* the model arrived at them. This lack of **transparency** hinders our ability to trust and fully utilize these powerful tools.
 

@@ -10,12 +10,11 @@ $link-color: #Fe5c00;
 /*-- scss:defaults --*/
 /*-- scss:rules --*/
 
-
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-$font-family-sans-serif: "Roboto", sans-serif !default;
-$heading-font: "Rubik", sans-serif !default;
+$font-family-sans-serif: "Rubik", sans-serif !default;
+$heading-font: "Roboto", sans-serif !default;
 
 .navbar .navbar-nav>li>a {
     line-height: 50px;
@@ -45,15 +44,15 @@ $heading-font: "Rubik", sans-serif !default;
   background-color: #252525; /* A light gray background */
   color: #ffffff; /* A dark gray text color */
   padding: 20px;
-  border-radius: 8px;
-  width: 600px; /* The box will be 50% of its parent's width */
+  border-radius: 0px;
+  width: 710px; /* The box will be 50% of its parent's width */
   height: auto;
   font-family: Rubik;
   position: relative;
   top: 0px;   /* Positions the box 20px from the top of its parent */
   right: 0px;
-  z-index: 1;
-  margin-bottom: 40px;
+  padding-bottom: 5px;
+  margin-bottom: 100px;
 
 }
 
@@ -89,5 +88,4 @@ $heading-font: "Rubik", sans-serif !default;
     width: 100vw;
     height: 53vh;
     background-color: rgba(254, 92, 0, 0.5); /* Your desired overlay color and opacity */
-    z-index: 1; /* Puts the overlay on top of the image */
 }

@@ -34,3 +34,22 @@ page-layout: full
   overflow: hidden
 }
 </style>
+
+<div class="image-container">
+  <img src='../images/campus_1.jpg' >
+</div>
+
+
+<div id="contentframe" style="position:relative; top: 0px; left: 0px; color: #ffffff; font-family: Rubik; background-color: #252525;
+  color: #ffffff; /* A dark gray text color */
+  padding: 20px;
+  border-radius: 0px;
+  width: 380px; /* The box will be 50% of its parent's width */
+  height: auto;
+  font-family: Rubik;; font-size: 30px; padding-bottom: 5px;
+  margin-bottom: 220px; top: 100px;">
+Research @ iHuman Lab
+</div>
+
+
+

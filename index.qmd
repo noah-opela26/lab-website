@@ -42,9 +42,12 @@ listing:
   <img src='images/campus.jpg' >
 </div>
 
-<div class="text-box">
-  Welcome to <span class="primary">I</span>ntelligent <span class="primary">Hu</span>man-<span class="primary">Ma</span>chine <span class="primary">N</span>exus <span class="primary">Lab</span>-iHuman Lab, where the convergence of human intelligence and machine capabilities defines our pursuit of cutting-edge research.
 
+<div id="contentframe" style="position:relative; top: 0px; left: 0px; color: #ffffff; font-family: Rubik; font-size: 30px">
+Welcome to Intelligent Human-Machine Nexus Lab!
+</div>
+
+<div class="text-box">
   At the iHuman Lab, we are dedicated to unraveling the complexities of interaction between humans and machines, forging pathways that enhance cognitive abilities, augment decision-making processes, and revolutionize technological integration in society.
 </div>
 

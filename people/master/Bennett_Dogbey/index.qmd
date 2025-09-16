@@ -1,0 +1,27 @@
+---
+title: Bennett Dogbey
+about:
+  template: trestles
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      url: https://www.linkedin.com/in/bennett-dogbey-608469105
+    - icon: github
+      text: Github
+      url: https://github.com/Bkdogbey
+    - text: 
+      url: 
+    - text: Website
+      url: https://<your-site>.com
+image: ./avatar.jpg
+---
+
+## Education
+- MSc (in progress), Mechanical & Aerospace Engineering, Oklahoma State University  
+- BSc Aerospace Engineering, 2022, Kwame Nkrumah University of Science & Technology  
+
+## Research Interest
+- Safe and robust autonomy 
+- Formal verification and control synthesis, 
+- Learning-based control for UAV systems
+
